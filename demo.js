@@ -7,7 +7,7 @@ async function doSomethingAsynchronous() {
 
 async function run() {
   const result = await doSomethingAsynchronous();
-  document.body.innerHTML = `<pre>${result}</pre>`;
+  document.body.innerHTML += `<pre>${result}</pre>`;
 }
 
 document.addEventListener('DOMContentLoaded', run);

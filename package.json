@@ -6,11 +6,16 @@
   "dependencies": {
     "parcel": "^1.12.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^3.4.5"
+  },
   "scripts": {
     "start": "parcel index.html"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
 }
